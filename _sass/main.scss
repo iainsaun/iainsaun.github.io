@@ -3,7 +3,7 @@ html, body {
   padding: 0px !important;
   font-family: 'Roboto', sans-serif;
   font-size: 1rem;
-  color: #333;
+  color: #fff9f5;
   width: 100vw;
   height: 100vh;
   overflow-x: hidden;
@@ -29,7 +29,7 @@ a {
     color: rgb(0, 122, 204);
     text-decoration: none;
   }
-  
+
   &:hover {
     text-decoration: underline;
   }
@@ -55,11 +55,11 @@ h6 { font-size: .6rem; }
   height: 100vh;
   min-height: 500px;
   overflow: hidden;
-  
+
   > * {
     transition: all .3s ease-in-out;
   }
-  
+
   &-overlay {
     display: var(--pan-overlay-display);
     cursor: pointer;
@@ -71,7 +71,7 @@ h6 { font-size: .6rem; }
     background-color: rgba(0, 0, 0, .2);
     z-index: 100000;
   }
-  
+
   &.pan-menu-open {
     --pan-layout-left-left: 0px;
     --pan-layout-right-left: var(--pan-layout-left-width);
