@@ -35,8 +35,8 @@ menu:
     link: /contact
     icon: ""
 
-  - text: My Resume
-    link: /resume
+  - text: Curriculum Vitae
+    link: /curriculumvitae
     icon: ""
 
   - text: Blog Posts
