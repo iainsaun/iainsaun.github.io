@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Home | Iain Saunders
+# Home
 
 Let's do away with that Lorem Ipsum and put something else.
 
