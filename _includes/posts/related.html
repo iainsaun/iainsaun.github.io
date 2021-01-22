@@ -50,11 +50,7 @@
         {% for post in allRelatedPosts %}
           <div class="pan-related-posts__item">
             <div class="pan-related-posts__body">
-              {% if post.image %}
-                <div class="pan-related-posts--image" style="background-image: url({{ post.image | relative_url }});"></div>
-              {% else %}
-                <div class="pan-related-posts--image"></div>
-              {% endif %}
+
               <h4>
                 <a href="{{ post.url | relative_url }}">{{ post.title | truncate: 50, '...' }}</a>
               </h4>
