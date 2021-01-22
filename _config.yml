@@ -10,7 +10,7 @@ paginate: 10
 paginate_path: "/blog/page:num/"
 
 title: Iain Saunders
-subtitle: Commercial Analyst and second year Data Science undergrad
+subtitle: Commercial Analyst and second year Data-Science undergrad
 
 # left_side:
 #   background_image: "./assets/images/left-background.jpg"
