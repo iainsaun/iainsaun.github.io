@@ -46,9 +46,10 @@
 
   &__body {
     padding: 10px;
+    background-color: #FFF;
     border: var(--border) !important;
 
-    > h4 {
+    > h3 {
       margin: 0px;
     }
   }
