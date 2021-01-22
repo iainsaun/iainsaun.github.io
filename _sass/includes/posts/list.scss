@@ -15,7 +15,7 @@
   --content-height: 100px;
   --content-margin: -30px auto 0px auto;
   --content-shadow: -2px 4px 8px rgba(0, 0, 0, .2);
-  
+
   @media (min-width: pan-device(lg)) {
     --display: flex;
 
@@ -62,7 +62,7 @@
       display: block;
       min-width: 100%;
       min-height: 100%;
-      background-image: url(../images/post.jpg);
+      /*background-image: url(../images/post.jpg);*/
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
